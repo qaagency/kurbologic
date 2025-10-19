@@ -597,7 +597,6 @@ function MainApp() {
                   <h4 className="font-bold mb-4 text-white">Company</h4>
                   <ul className="space-y-2 text-gray-400">
                     <li>About Us</li>
-                    <li>Case Studies</li>
                   </ul>
                 </div>
                 <div>
