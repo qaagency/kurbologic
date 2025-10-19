@@ -214,32 +214,21 @@ function MainApp() {
                 Our AI Voice Agents answer every call instantly, qualify leads, and book appointments automatically - even while you sleep.
               </p>
             </div>
-          </div>
-          <div className="hero-vsl">
-            <a 
-              href="https://youtu.be/xPJRsARaKfE" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="vsl-container"
-            >
-              <div className="vsl-play-button">▶</div>
-            </a>
-            <p className="vsl-caption">Watch how it books an appointment in 60 seconds</p>
-          </div>
-          <div className="hero-buttons-wrapper">
-            <div className="hero-buttons">
-              <a href="https://calendly.com/arliqosja014/new-meeting" target="_blank" rel="noopener noreferrer" className="hero-btn hero-btn-primary">Book a Free Consultation</a>
-              <button 
-                className="hero-btn hero-btn-outline"
-                onClick={() => {
-                  const voiceAgentSection = document.getElementById('voice-agent-demo');
-                  if (voiceAgentSection) {
-                    voiceAgentSection.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
-              >
-                See the Voice Agent in Action
-              </button>
+            <div className="hero-buttons-wrapper">
+              <div className="hero-buttons">
+                <a href="https://calendly.com/arliqosja014/new-meeting" target="_blank" rel="noopener noreferrer" className="hero-btn hero-btn-primary">Book a Free Consultation</a>
+                <button 
+                  className="hero-btn hero-btn-outline"
+                  onClick={() => {
+                    const voiceAgentSection = document.getElementById('voice-agent-demo');
+                    if (voiceAgentSection) {
+                      voiceAgentSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  See the Voice Agent in Action
+                </button>
+              </div>
             </div>
           </div>
         </div>
